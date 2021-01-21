@@ -5,6 +5,7 @@
 .header-container {
   background: #004175;
   margin-bottom: 20px;
+  border-color: #89deef;
 }
 
 h3 {
@@ -35,15 +36,22 @@ p {
   margin-bottom: 1%;
 }
 
-.qualities,
 .qualities ul,
 .qualities ul li {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   margin: 0.2em;
-  justify-content: space-between;
   color: black;
-  font-size: 13px;
+}
+li {
+  font-size: 11px;
+  font-weight: 0;
+  background-color: #89deef;
+  border-style: solid;
+  border-radius: 35%;
+  border-color: #89deef;
+  font-family: Open Sans;
 }
 
 .top-dogs {
@@ -53,11 +61,7 @@ p {
   justify-content: space-around;
   align-items: flex-start;
 }
-/* .dog {
-  display: block;
-  font-family: Oswald;
-  font-weight: 100%;
-} */
+
 .dog p {
   margin: 0;
   font-family: Oswald;
