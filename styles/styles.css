@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-container {
+  background: #004175;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: white;
+  margin: auto;
+  position: relative;
+  bottom: 25px;
+  font-family: "Open Sans";
+  font-size: 26px;
+  font-weight: 200px;
+  padding-left: 2%;
+  padding-top: 5%;
+  padding-bottom: 5px;
+}
+
+.adopt-a-dog {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Open Sans;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+p {
+  font-family: Open Sans;
+  font-size: 15px;
+  margin-left: 5%;
+  margin-bottom: 1%;
+}
+
+.qualities,
+.qualities ul,
+.qualities ul li {
+  list-style-type: none;
+  display: flex;
+  margin: 0.2em;
+  justify-content: space-between;
+  color: black;
+  font-size: 13px;
+}
+
+.top-dogs {
+  display: flex;
+  margin-left: 4%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+/* .dog {
+  display: block;
+  font-family: Oswald;
+  font-weight: 100%;
+} */
+.dog p {
+  margin: 0;
+  font-family: Oswald;
+  font-weight: 700;
+}
