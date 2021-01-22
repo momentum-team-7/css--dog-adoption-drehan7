@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .header-container {
   background: #004175;
   margin-bottom: 20px;
@@ -54,14 +55,33 @@ li {
   font-family: Open Sans;
 }
 
-.top-dogs {
+.top-dogs,
+.middle-dogs {
   display: flex;
   margin-left: 4%;
+  margin-top: 3%;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
 }
 
+.bottom-dogs {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+/* .middle-dogs {
+  display: flex;
+  margin-left: 4%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+} */
+.dog {
+  display: block;
+}
 .dog p {
   margin: 0;
   font-family: Oswald;
